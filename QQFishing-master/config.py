@@ -7,12 +7,12 @@ import os
 # DEBUG = True
 DEBUG = False
 
-HOSTNAME='mysql'
+HOSTNAME='127.0.0.1'
 # HOSTNAME = '127.0.0.1'
 PORT = '3306'
 DATABASE = 'QQFishing'
-USERNAME = 'root'
-PASSWORD = 'root'
+USERNAME = '1721127682'
+PASSWORD = 'jj20081204'
 # SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:root@127.0.0.1/tushare?charset=utf8'
 class Config:
     SECRET_KEY = os.urandom(24)
